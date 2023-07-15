@@ -1,0 +1,1434 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Roboto+Slab:wght@500&family=Ysabeau+SC:wght@500&display=swap');
+
+/* RESET */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* HEADER */
+/*boostra*/
+header{
+    width: 100%;
+}
+header .logoprincioal{
+    width: 45px;
+    height: 45px;
+}
+header .zorrofit1{
+    font-family: 'Black Ops One', cursive;
+}
+
+
+
+/* MAIN */
+main{
+    background-color: white;
+}
+
+
+
+
+/*MAIN-INDEX*/
+
+.hero{
+    width:100%;
+    height: calc(100vh - 122px);
+    background-image: url(../img/index-1.jpg);
+    background-position: center;
+    background-size: cover ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+
+.hero h1{
+    text-shadow: 4px 4px 0px rgba(0,0,0,1);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+
+
+.hero p{
+    color: white;
+    text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    font-size: 15px;
+}
+
+.hero-actividades div{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-actividades div h2{
+    font-size: xx-large;
+    text-shadow: 4px 4px 0px rgba(0,0,0,1);
+}
+
+.hero-actividades div p{
+    font-size: large ;
+    text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    width: 30%;
+}
+
+.hero-actividades .crossfit{
+    background-image: url(../img/crossfit.jpg);
+}
+.hero-actividades .funcional{
+    background-image: url(../img/funcional.jpg);
+}
+.hero-actividades .running{
+    background-image: url(../img/running.jpg);
+}
+.hero-actividades .yoga{
+    background-image: url(../img/yoga.jpg);
+}
+.hero-actividades .bicicleta{
+    background-image: url(../img/bicicleta.jpg) ;
+}
+
+
+
+.hero-carmelo{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    border: 0.5px solid #000000;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 0 ;
+    flex-wrap: wrap;
+}
+
+.hero-carmelo div{ 
+    color: rgb(0, 0, 0);
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.hero-carmelo iframe{
+    padding: auto;
+}
+
+
+.hero-equipo{
+    text-align: center;
+    color: black;
+    margin: 40px 0;
+}
+.hero-equipo h2{
+    text-align: center;
+    margin: 15px;
+}
+.hero-equipo p{
+    text-align: center;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.hero-equipo div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 10px;
+}
+
+.hero-equipo  div div{
+    text-align: center;
+    display: inline-block;
+    width: 210px;
+    height: 270px;
+    overflow: hidden;
+    background-color:rgb(245, 245, 245);
+    text-align: center;
+    box-shadow: 5px 7px 0px 1px rgba(0, 0, 0,0.80);
+    -webkit-box-shadow: 5px 7px 0px 1px rgba(0,0,0,0.80);
+    -moz-box-shadow: 5px 7px 0px 1px rgba(0,0,0,0.80);
+    border-radius: 34px 34px 34px 34px;
+    -webkit-border-radius: 34px 34px 34px 34px;
+    -moz-border-radius: 34px 34px 34px 34px;
+    border: 3px solid #000000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-equipo div div img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.hero-equipo div div h3{
+    font-size: 15px;
+    font-weight:900;
+}
+
+.hero-equipo div div p{
+    font-size: 15px;
+}
+
+/*MAIN-NOSOTROS*/
+
+.nosotros{
+    background-image: url(../img/historia-3.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    color: white;
+}
+
+
+
+.nosotros h1{
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.nosotros p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 80%;
+    padding: 20px 0 20px 0;
+    margin: auto;
+}
+
+
+
+
+
+/*MAIN ENTRENAMIENTO*/
+
+.entrenamiento{
+    background-image: url(../img/titulos-en-general.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.entrenamiento-engeneral a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    -webkit-box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    -moz-box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    margin: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.entrenamiento-engeneral a:hover{
+    background-color: #d7d7d735;
+}
+
+
+.entrenamiento-engeneral a div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+}
+
+.entrenamiento-engeneral a div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.entrenamiento-engeneral a div p{
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+
+.entrenamiento-engeneral a img{
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/*MAIN ENTRENAMIENTO AL AIRE LIBRE*/  
+/*MAIN-ENTRENAMIENTO-SALA*/
+
+.aire{
+    background-image: url(../img/titulos-en-general-3.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.sala{
+    background-image: url(../img/titulos-en-general-2.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.entrenamiento-aireysala{
+    color: black;
+    height: 440px;
+    box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    -webkit-box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    -moz-box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.entrenamiento-aireysala div{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrenamiento-aireysala div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.entrenamiento-aireysala div p{
+    width: 80%;
+    padding: auto;
+    font-size: 15px;
+}
+
+.entrenamiento-aireysala img{
+    width: 50%;
+    height: 365px;
+    object-fit: cover;
+}
+
+
+
+/*MAIN-EUIPAMIENTO*/
+/*ECHO CON BOOSTRA*/
+
+.equipamiento{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+.equipamiento-engeneral img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.equipamiento-engeneral div div div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.equipamiento-img {
+    width: 125px;
+    height: 125px;
+}
+
+
+/* MAIN HORARIOS */
+/*TODO GRID*/
+
+.horarios{
+    background-color:  rgba(0, 0, 0, 0.516);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.horarios-aire{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.horarios-aire .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(10,40px);
+}
+
+.grid-items{
+    border:solid 1px #000000;
+    font-size:20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    background-color: rgba(1, 1, 1, 0.703);
+    grid-column: 1/7;
+}
+
+.dia{
+    background-color: rgba(151, 151, 151, 0.295);
+}
+
+.hora{
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 0, 0);
+}
+
+.funcional8{
+    background-color: darkorange;
+    grid-column: 2/7;
+}
+.yoga9{
+    background-color: cornflowerblue;
+    grid-column: 2/7;
+}
+
+.running10{
+    background-color: rgb(124, 179, 91) ;
+    grid-column: 2/7;
+}
+.bici11{
+    background-color: rgb(231, 126, 156);
+    grid-column: 2/7;
+}
+
+.yoga17{
+    background-color: cornflowerblue;
+    grid-column: 2 span;
+}
+.funcional17{
+    background-color: darkorange ;
+    grid-column: 3 span;
+}
+
+.bici18{
+    background-color: rgb(231, 126, 156);
+    grid-column: 2/7;
+}
+
+.funcional19{
+    background-color: darkorange ;
+    grid-column: 2/7;
+}
+
+.running20{
+    background-color: rgb(124, 179, 91) ;
+    grid-column: 2/7;
+}
+
+
+.horarios-sala{
+
+    width: 70%;
+    margin: 80px auto;
+}
+
+.horarios-sala .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(9,45px);
+    grid-template-areas:
+    "ti ti ti ti ti ti"
+    "zh lu ma mi ju vi"
+    "hoco cf8 cf8 cf8 cf8 cf8"
+    "hnue fu9 fu9 fu9 fu9 fu9"
+    "hdi cf10 cf10 cf10 cf10 cf10"
+    "hon fu11 fu11 fu11 fu11 fu11"
+    "hdo fu18 fu18 fu18 fu18 fu18"
+    "hdn cf19 cf19 cf19 cf19 cf19"
+    "hve cf20 cf20 cf20 cf20 cf20";
+}
+
+
+.titulo-1{
+    color: white;
+    background-color: rgba(1, 1, 1, 0.703);
+    grid-area: ti;
+}
+
+.zorroh{
+    grid-area: zh;
+}
+.lunesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: lu;
+}
+
+.martesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: ma;
+}
+.miercolesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: mi;
+}
+.juevesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: ju;
+}
+.viernesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: vi;
+}
+
+.hora8{
+    background-color: rgb(219, 0, 0);
+    grid-area: hoco ;
+}
+.crossfit8{
+    background-color: burlywood;
+    grid-area: cf8;
+}
+
+.hora9{
+    background-color: rgb(219, 0, 0);
+    grid-area: hnue ;
+}
+.funcional9{
+    background-color: darkorange;
+    grid-area: fu9;
+}
+
+.hora10{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdi ;
+}
+.crossfit10{
+    background-color: burlywood;
+    grid-area: cf10;
+}
+
+.hora11{
+    background-color: rgb(219, 0, 0);
+    grid-area: hon ;
+}
+.funcional11{
+    background-color: darkorange;
+    grid-area: fu11;
+}
+
+
+.hora18{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdo ;
+}
+.funcional18{
+    background-color: darkorange;
+    grid-area: fu18;
+}
+
+.hora19{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdn ;
+}
+.crossfit19{
+    background-color: burlywood;
+    grid-area: cf19;
+}
+.hora20{
+    background-color: rgb(219, 0, 0);
+    grid-area: hve ;
+}
+.crossfit20{
+    background-color: burlywood;
+    grid-area: cf20;
+}
+
+
+.horarios-finde {
+    width: 70%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 80px);
+    gap: 3px;
+}
+.grid-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.grid-1{
+    grid-row: span 2;
+}
+.grid-2{
+    grid-column: span 2;
+}
+
+.grid-3{
+    grid-column: span 2;
+}
+
+.grid-4{
+    grid-column: span 2;
+}
+.grid-7{
+    grid-column: span 2;
+}
+
+.horarios-finde div h3{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding: 2px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+}
+
+
+
+/*MAIN CONTACTOS*/
+
+
+.contactos{
+    height: 500px;
+    background-image: url(../img/contactos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+.contactos .contactos-titulo{
+    color: white;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactos .contactos-titulo h2{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.contactos .contactos-titulo p{
+    text-align: center;
+    font-size: 20px;
+    width:75%;
+}
+
+.contactos .contactos-mensaje{
+    width: 50%;
+}
+
+.contactos .contactos-mensaje .contactos-mensaje-nombre{
+    color: white;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div{
+    margin-bottom: 10px;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div label{
+    color: white;
+    margin-right: 10px;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div input{
+    width: 100%;
+    color: white;
+    border: none;
+    border-bottom: 3px solid white ;
+    background-color: transparent;
+}
+
+
+.contactos .contactos-mensaje .contactos-mensaje-enviar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviar textarea{
+    width: 225px;
+    height: 200px;
+    border: none;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviar input{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.532);
+    font-size: 15px;
+    font-weight: 900;
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviarinput:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.614);
+}
+
+.contactos-estamos{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactos-estamos div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.contactos-estamos div h2{
+    font-size: 35px;
+    margin: 15px;
+}
+
+.contactos-estamos div div img{
+    width: 15px;
+    height: 15px;
+}
+.contactos-estamos div div p{
+    margin: 5px;
+}
+
+.contactos-estamosiframe{
+    padding: auto;
+}
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 180px;
+    background-color:rgb(68,68,68);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer p{
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    font-size: 10px;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer div a{ 
+    margin: 15px;
+}
+
+
+
+/*MEDIA QUORUN*/
+
+@media  screen and (max-width:970px) and (min-width:710px){
+    /*INDEX*/
+    .hero-equipo div{
+        margin: 15px 45px;
+    }
+}
+
+@media screen and (max-width:900px){
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 80%;
+    }
+    .horarios-sala{
+        width: 80%;
+    }
+    .horarios-finde {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    /*header*/
+    header .logoprincioal{
+    display: none;
+    }
+    /*index*/
+    .hero{
+        width:100%;
+        height: calc(100vh - 77px);
+    }
+
+
+    /*enttenamient*/
+    .entrenamiento-engeneral a {
+        height: 525px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .entrenamiento-engeneral a div{
+        text-align: center;
+        width: 80%;
+        height: 200px;
+    }
+    
+    .entrenamiento-engeneral a div h2{
+        font-size: 20px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 13px;
+    }
+    
+    .entrenamiento-engeneral a img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    
+.entrenamiento-aireysala{
+    height: 650px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.entrenamiento-aireysala div{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+.entrenamiento-aireysala div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+
+.entrenamiento-aireysala div p{
+    width: 80%;
+    padding: auto;
+    font-size: 13px;
+}
+
+.entrenamiento-aireysala img{
+    width: 85%;
+    height: 240px;
+    object-fit: cover;
+}
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 90%;
+    }
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,35px);
+    }
+    .horarios-sala{
+        width: 90%;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,38px);
+    }
+    .horarios-finde {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:780px){
+    /*INDEX*/
+    .hero-carmelo{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-carmelo div{ 
+        font-size: 20px;
+    }
+    
+    .hero-carmelo iframe{
+        width: 80%;
+        padding: auto;
+    }
+
+    /*EQUIPAMIENTO*/
+    .equipamiento-marcas img{
+        height: 150px;
+    }
+    
+} 
+
+
+@media  screen and (max-width:750px) {
+
+    /*INDEX*/
+    .hero{
+        height: calc(100vh - 100px);
+    }
+}
+
+@media screen and (max-width:700px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 35px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .hero-actividades div{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-actividades div h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    }
+    .hero-actividades div p{
+        font-size: 15px;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento{
+        font-size: 20px;
+        height: 80px;
+    }
+    /*EQUIPAMIENTO*/
+    .equipamiento{
+        font-size: 30px;
+        margin-bottom: 40px;
+}
+    .equipamiento-img {
+        width: 115px;
+        height: 115px;
+    }
+    
+    /*NOSOTROS*/
+    .nosotros p{
+        font-size: 18px;
+    }
+    /*HORARIOS*/
+
+    .horarios{
+        font-size: 20px;
+    }
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,30px);
+    }
+    .grid-items{
+        font-size:15px;
+        font-weight: 400;
+    }
+        .horarios-sala{
+            width: 90%;
+            margin: 40px auto;
+        }
+        .horarios-sala .grid-conteiner{
+            grid-template-rows: repeat(9,35px);
+        }
+        .horarios-finde {
+            width: 90%;
+        }
+        
+        /*CONTACTOS*/
+        .contactos{
+            height: 700px;
+            flex-direction: column;
+        }  
+        .contactos .contactos-titulo{
+            width: 75%;
+            padding: 30px;
+        }
+        .contactos .contactos-titulo h2{
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+        .contactos .contactos-titulo p{
+            text-align: center;
+            font-size: 15px;
+            width:75%;
+        }
+        .contactos .contactos-mensaje{
+            width: 75%;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre div label{
+        font-size: 15px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre div input{
+            font-size: 15px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-enviar textarea{
+            font-size: 1px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-enviar input{
+            margin: 12px;
+        }
+        .contactos-estamos div h2{
+            font-size: 28px;
+        }
+        .contactos-estamos div div img{
+            width: 12px;
+            height: 12px;
+        }
+}
+
+@media screen and (max-width:660px ) {
+    
+    
+
+        /*CONTACTOS*/
+        .contactos{
+            height: 600px;
+            flex-direction: column;
+        }  
+        .contactos .contactos-titulo{
+            width: 100%;
+            padding: 30px;
+        }
+        .contactos .contactos-titulo h2{
+            margin-bottom: 0px;
+            font-size: 25px;
+        }
+        .contactos .contactos-titulo p{
+            text-align: center;
+            font-size: 12px;
+            width:75%;
+        }
+        .contactos .contactos-mensaje{
+            width: 100%;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre input{
+            margin: 10px;
+        }
+        .contactos-estamos{
+            height: 700px;
+            flex-direction: column;
+        }
+        
+        .contactos-estamos div div img{
+            width: 8px;
+            height: 8px;
+        }
+        
+        .contactos-estamos iframe{
+        width: 250px;
+        height: 200px;
+        }
+}
+
+
+@media screen and (max-width:640px ) {
+    header{
+        position: static;
+    }
+    /*INDEX*/
+    .hero-carmelo div{ 
+        font-size: 15px;
+    }
+    .hero-carmelo iframe{
+        width: 90%;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width:600px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 12px;
+    }
+    .hero-actividades div{
+        height: 150px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-actividades div h2{
+        font-size: 30px;
+    }
+    .hero-actividades div p{
+        display: none;
+    }
+    .hero-equipo{
+        margin: 30px 0;
+    }
+    .hero-equipo h2{
+        margin: 10px;
+    }
+    .hero-equipo p{
+        font-size: 15px;
+    }
+    .hero-equipo  div div{
+        width: 190px;
+        height: 250px;
+    }
+    
+    .hero-equipo div div h3{
+        font-size: 13px;
+        font-weight:900;
+    }
+    
+    .hero-equipo div div p{
+        font-size: 12px;
+    }
+    /*NOSOTROS*/
+    .nosotros h1{
+    font-size: 25px;
+    }
+    /*ENTRENMIENTO*/
+    .entrenamiento-engeneral a {
+        height: 375px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .entrenamiento-engeneral a div{
+        text-align: center;
+        width: 90%;
+    }
+    
+    .entrenamiento-engeneral a div h2{
+        font-size: 18px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 13px;
+    }
+    
+    .entrenamiento-engeneral a img{
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+    }
+    .entrenamiento-aireysala{
+        height: 555px;
+    }
+    .entrenamiento-aireysala div h2{
+        margin-bottom: 15px;
+        font-size: 18px;
+        }
+    .entrenamiento-aireysala div p{
+        width: 90%;
+        padding: auto;
+        font-size: 12px;
+    }
+    
+    .entrenamiento-aireysala img{
+        width: 92%;
+        padding: auto;
+        height: 175px;
+        object-fit: cover;
+    }
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 90%;
+        margin: 20px auto;
+    }    
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,20px);
+    }
+    .grid-items{
+        font-size:15px;
+        font-weight: 400;
+    }
+    .horarios-sala{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,22px);
+    }
+    .horarios-finde{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(7,35px);
+        gap: 3px;
+    }
+    .grid-1{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+    .grid-2{
+        grid-column: span 3;
+    }
+    .grid-3{
+        grid-column: span 3;
+    }
+    .grid-4{
+        grid-column: span 3;
+    }
+    .grid-5{
+        grid-column: span 3;
+    }
+    .grid-6{
+        grid-column: span 3;
+    }
+    .grid-7{
+        grid-column: span 3;
+    }
+    
+    .grid-conteiner2 div h3{
+        font-size: 15px;
+    }
+    
+    
+
+    /*FOOTER*/
+    footer{
+        height: 150px;
+    }
+    footer p{
+
+        font-size: 8px;
+    }
+    
+    footer img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width:660px ) {
+    /*CONTACTOS*/
+    .contactos{
+        height: 700px;
+        flex-direction: column;
+    }  
+    .contactos .contactos-titulo{
+        width: 100%;
+        padding: 30px;
+    }
+    .contactos .contactos-titulo h2{
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .contactos .contactos-titulo p{
+        display: none;
+    }
+    .contactos .contactos-mensaje{
+        width: 100%;
+    }
+    .contactos .contactos-mensaje .contactos-mensaje-enviar input{
+        margin: 10px;
+    }
+    .contactos-estamos{
+        height: 600px;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:510px ){
+    .entrenamiento-aireysala{
+        height: 380px;
+    }
+    .entrenamiento-aireysala div h2{
+        margin-bottom: 12px;
+        font-size: 15px;
+        }
+    .entrenamiento-aireysala div p{
+        width: 92%;
+        padding: auto;
+        font-size: 10px;
+    }
+    
+    .entrenamiento-aireysala img{
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:500px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 35px;
+        padding: 25px;
+    }
+    .hero p{ 
+        display: none;
+    }
+    .hero-equipo h2{
+        margin: 10px;
+    }
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 96%;
+        margin: 20px auto;
+    }    
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,15px);
+    }
+    .grid-items{
+        font-size:10px;
+        font-weight: 300;
+    }
+    .horarios-sala{
+        width: 96%;
+        margin: 30px auto;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,18px);
+    }
+    .horarios-finde {
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(7,20px);
+        gap: 3px;
+    }
+    .horarios-finde div h3{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:450px ){
+    /*NOSOTROS*/
+    .nosotros h1{
+        font-size: 20px;
+    }
+    
+    .nosotros p{
+        width: 90%;
+        margin: auto;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento{
+        font-size: 15px;
+        height: 70px;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento-engenerala div h2{
+        font-size: 15px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:400px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 30px;
+        padding: 7px;
+    }
+    .hero-actividades div h2{
+        font-size: 20px;
+    }
+    .hero-carmelo{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-carmelo div{ 
+        font-size: 15px;
+    }
+    
+    .hero-carmelo iframe{
+        width: 90%;
+        padding: auto;
+    }
+}
+
+
