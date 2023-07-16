@@ -22,7 +22,7 @@ header{
 }
 
 header a:hover{
-background-color: #ffffff19;
+background-color: #ffffff0e;
 }
 header .logoprincioal{
     width: 45px;
@@ -381,7 +381,7 @@ main{
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 40px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 
 }
 .equipamiento-engeneral img{
