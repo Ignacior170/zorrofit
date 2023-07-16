@@ -20,6 +20,10 @@ body{
 header{
     width: 100%;
 }
+
+header a:hover{
+background-color: #ffffff19;
+}
 header .logoprincioal{
     width: 45px;
     height: 45px;
@@ -837,7 +841,7 @@ footer div a{
     /*index*/
     .hero{
         width:100%;
-        height: calc(100vh - 77px);
+        height: calc(100vh - 73px);
     }
 
 
