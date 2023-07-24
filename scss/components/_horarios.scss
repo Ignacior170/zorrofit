@@ -1,0 +1,249 @@
+/* MAIN HORARIOS */
+/*TODO GRID*/
+
+.horarios{
+    background-color:  rgba(0, 0, 0, 0.516);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.horarios-aire{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.horarios-aire .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(10,40px);
+}
+
+.grid-items{
+    border:solid 1px #000000;
+    font-size:20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    background-color: rgba(1, 1, 1, 0.703);
+    grid-column: 1/7;
+}
+
+.dia{
+    background-color: rgba(151, 151, 151, 0.295);
+}
+
+.hora{
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 0, 0);
+}
+
+.funcional8{
+    background-color: darkorange;
+    grid-column: 2/7;
+}
+.yoga9{
+    background-color: cornflowerblue;
+    grid-column: 2/7;
+}
+
+.running10{
+    background-color: rgb(124, 179, 91) ;
+    grid-column: 2/7;
+}
+.bici11{
+    background-color: rgb(231, 126, 156);
+    grid-column: 2/7;
+}
+
+.yoga17{
+    background-color: cornflowerblue;
+    grid-column: 2 span;
+}
+.funcional17{
+    background-color: darkorange ;
+    grid-column: 3 span;
+}
+
+.bici18{
+    background-color: rgb(231, 126, 156);
+    grid-column: 2/7;
+}
+
+.funcional19{
+    background-color: darkorange ;
+    grid-column: 2/7;
+}
+
+.running20{
+    background-color: rgb(124, 179, 91) ;
+    grid-column: 2/7;
+}
+
+
+.horarios-sala{
+
+    width: 70%;
+    margin: 80px auto;
+}
+
+.horarios-sala .grid-conteiner{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(9,45px);
+    grid-template-areas:
+    "ti ti ti ti ti ti"
+    "zh lu ma mi ju vi"
+    "hoco cf8 cf8 cf8 cf8 cf8"
+    "hnue fu9 fu9 fu9 fu9 fu9"
+    "hdi cf10 cf10 cf10 cf10 cf10"
+    "hon fu11 fu11 fu11 fu11 fu11"
+    "hdo fu18 fu18 fu18 fu18 fu18"
+    "hdn cf19 cf19 cf19 cf19 cf19"
+    "hve cf20 cf20 cf20 cf20 cf20";
+}
+
+
+.titulo-1{
+    color: white;
+    background-color: rgba(1, 1, 1, 0.703);
+    grid-area: ti;
+}
+
+.zorroh{
+    grid-area: zh;
+}
+.lunesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: lu;
+}
+
+.martesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: ma;
+}
+.miercolesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: mi;
+}
+.juevesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: ju;
+}
+.viernesh{
+    background-color: rgba(151, 151, 151, 0.295);
+    grid-area: vi;
+}
+
+.hora8{
+    background-color: rgb(219, 0, 0);
+    grid-area: hoco ;
+}
+.crossfit8{
+    background-color: burlywood;
+    grid-area: cf8;
+}
+
+.hora9{
+    background-color: rgb(219, 0, 0);
+    grid-area: hnue ;
+}
+.funcional9{
+    background-color: darkorange;
+    grid-area: fu9;
+}
+
+.hora10{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdi ;
+}
+.crossfit10{
+    background-color: burlywood;
+    grid-area: cf10;
+}
+
+.hora11{
+    background-color: rgb(219, 0, 0);
+    grid-area: hon ;
+}
+.funcional11{
+    background-color: darkorange;
+    grid-area: fu11;
+}
+
+
+.hora18{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdo ;
+}
+.funcional18{
+    background-color: darkorange;
+    grid-area: fu18;
+}
+
+.hora19{
+    background-color: rgb(219, 0, 0);
+    grid-area: hdn ;
+}
+.crossfit19{
+    background-color: burlywood;
+    grid-area: cf19;
+}
+.hora20{
+    background-color: rgb(219, 0, 0);
+    grid-area: hve ;
+}
+.crossfit20{
+    background-color: burlywood;
+    grid-area: cf20;
+}
+
+
+.horarios-finde {
+    width: 70%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 80px);
+    gap: 3px;
+}
+.grid-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.grid-1{
+    grid-row: span 2;
+}
+.grid-2{
+    grid-column: span 2;
+}
+
+.grid-3{
+    grid-column: span 2;
+}
+
+.grid-4{
+    grid-column: span 2;
+}
+.grid-7{
+    grid-column: span 2;
+}
+
+.horarios-finde div h3{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.700);
+    padding: 2px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+}

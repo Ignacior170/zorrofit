@@ -1,0 +1,133 @@
+/*MAIN ENTRENAMIENTO*/
+
+.entrenamiento{
+    background-image: url(../img/titulos-en-general.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.entrenamiento-engeneral a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    -webkit-box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    -moz-box-shadow: -60px -60px 0px -54px rgba(218,0,55,1);
+    margin: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.entrenamiento-engeneral a:hover{
+    background-color: #d7d7d735;
+}
+
+
+.entrenamiento-engeneral a div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 350px;
+}
+
+.entrenamiento-engeneral a div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.entrenamiento-engeneral a div p{
+    padding: 0 25px 0 25px;
+    font-size: 12px;
+}
+
+.entrenamiento-engeneral a img{
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/*MAIN ENTRENAMIENTO AL AIRE LIBRE*/  
+/*MAIN-ENTRENAMIENTO-SALA*/
+
+.aire{
+    background-image: url(../img/titulos-en-general-3.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.sala{
+    background-image: url(../img/titulos-en-general-2.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.entrenamiento-aireysala{
+    color: black;
+    height: 440px;
+    box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    -webkit-box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    -moz-box-shadow: -60px -60px 0px -54px rgb(0, 0, 0);
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.entrenamiento-aireysala div{
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrenamiento-aireysala div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.entrenamiento-aireysala div p{
+    width: 80%;
+    padding: auto;
+    font-size: 15px;
+}
+
+.entrenamiento-aireysala img{
+    width: 50%;
+    height: 365px;
+    object-fit: cover;
+}
+

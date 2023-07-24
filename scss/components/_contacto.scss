@@ -1,0 +1,126 @@
+/*MAIN CONTACTOS*/
+
+
+.contactos{
+    height: 500px;
+    background-image: url(../img/contactos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+
+.contactos .contactos-titulo{
+    color: white;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactos .contactos-titulo h2{
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.contactos .contactos-titulo p{
+    text-align: center;
+    font-size: 20px;
+    width:75%;
+}
+
+.contactos .contactos-mensaje{
+    width: 50%;
+}
+
+.contactos .contactos-mensaje .contactos-mensaje-nombre{
+    color: white;
+    text-align: left;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div{
+    margin-bottom: 10px;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div label{
+    color: white;
+    margin-right: 10px;
+}
+.contactos .contactos-mensaje .contactos-mensaje-nombre div input{
+    width: 100%;
+    color: white;
+    border: none;
+    border-bottom: 3px solid white ;
+    background-color: transparent;
+}
+
+
+.contactos .contactos-mensaje .contactos-mensaje-enviar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviar textarea{
+    width: 225px;
+    height: 200px;
+    border: none;
+    border: 2px solid white;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviar input{
+    cursor: pointer;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, 0.532);
+    font-size: 15px;
+    font-weight: 900;
+}
+.contactos .contactos-mensaje .contactos-mensaje-enviarinput:hover{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.614);
+}
+
+.contactos-estamos{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactos-estamos div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.contactos-estamos div h2{
+    font-size: 35px;
+    margin: 15px;
+}
+
+.contactos-estamos div div img{
+    width: 15px;
+    height: 15px;
+}
+.contactos-estamos div div p{
+    margin: 5px;
+}
+
+.contactos-estamosiframe{
+    padding: auto;
+}

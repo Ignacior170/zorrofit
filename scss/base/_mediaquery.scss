@@ -1,0 +1,625 @@
+/*MEDIA QUORUN*/
+
+@media  screen and (max-width:970px) and (min-width:710px){
+    /*INDEX*/
+    .hero-equipo div{
+        margin: 15px 45px;
+    }
+}
+
+@media screen and (max-width:900px){
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 80%;
+    }
+    .horarios-sala{
+        width: 80%;
+    }
+    .horarios-finde {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    /*header*/
+    header .logoprincioal{
+    display: none;
+    }
+    /*index*/
+    .hero{
+        width:100%;
+        height: calc(100vh - 73px);
+    }
+
+
+    /*enttenamient*/
+    .entrenamiento-engeneral a {
+        height: 525px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .entrenamiento-engeneral a div{
+        text-align: center;
+        width: 80%;
+        height: 200px;
+    }
+    
+    .entrenamiento-engeneral a div h2{
+        font-size: 20px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 13px;
+    }
+    
+    .entrenamiento-engeneral a img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    
+.entrenamiento-aireysala{
+    height: 650px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.entrenamiento-aireysala div{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+.entrenamiento-aireysala div h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    }
+
+.entrenamiento-aireysala div p{
+    width: 80%;
+    padding: auto;
+    font-size: 13px;
+}
+
+.entrenamiento-aireysala img{
+    width: 85%;
+    height: 240px;
+    object-fit: cover;
+}
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 90%;
+    }
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,35px);
+    }
+    .horarios-sala{
+        width: 90%;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,38px);
+    }
+    .horarios-finde {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:780px){
+    /*INDEX*/
+    .hero-carmelo{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-carmelo div{ 
+        font-size: 20px;
+    }
+    
+    .hero-carmelo iframe{
+        width: 80%;
+        padding: auto;
+    }
+
+    /*EQUIPAMIENTO*/
+    .equipamiento-marcas img{
+        height: 150px;
+    }
+    
+} 
+
+
+@media  screen and (max-width:750px) {
+
+    /*INDEX*/
+    .hero{
+        height: calc(100vh - 100px);
+    }
+}
+
+@media screen and (max-width:700px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 35px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+    .hero-actividades div{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-actividades div h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 0px rgba(0,0,0,1);
+    }
+    .hero-actividades div p{
+        font-size: 15px;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento{
+        font-size: 20px;
+        height: 80px;
+    }
+    /*EQUIPAMIENTO*/
+    .equipamiento{
+        font-size: 30px;
+        margin-bottom: 40px;
+}
+    .equipamiento-img {
+        width: 115px;
+        height: 115px;
+    }
+    
+    /*NOSOTROS*/
+    .nosotros p{
+        font-size: 18px;
+    }
+    /*HORARIOS*/
+
+    .horarios{
+        font-size: 20px;
+    }
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,30px);
+    }
+    .grid-items{
+        font-size:15px;
+        font-weight: 400;
+    }
+        .horarios-sala{
+            width: 90%;
+            margin: 40px auto;
+        }
+        .horarios-sala .grid-conteiner{
+            grid-template-rows: repeat(9,35px);
+        }
+        .horarios-finde {
+            width: 90%;
+        }
+        
+        /*CONTACTOS*/
+        .contactos{
+            height: 700px;
+            flex-direction: column;
+        }  
+        .contactos .contactos-titulo{
+            width: 75%;
+            padding: 30px;
+        }
+        .contactos .contactos-titulo h2{
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+        .contactos .contactos-titulo p{
+            text-align: center;
+            font-size: 15px;
+            width:75%;
+        }
+        .contactos .contactos-mensaje{
+            width: 75%;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre div label{
+        font-size: 15px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre div input{
+            font-size: 15px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-enviar textarea{
+            font-size: 1px;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-enviar input{
+            margin: 12px;
+        }
+        .contactos-estamos div h2{
+            font-size: 28px;
+        }
+        .contactos-estamos div div img{
+            width: 12px;
+            height: 12px;
+        }
+}
+
+@media screen and (max-width:660px ) {
+    
+    
+
+        /*CONTACTOS*/
+        .contactos{
+            height: 600px;
+            flex-direction: column;
+        }  
+        .contactos .contactos-titulo{
+            width: 100%;
+            padding: 30px;
+        }
+        .contactos .contactos-titulo h2{
+            margin-bottom: 0px;
+            font-size: 25px;
+        }
+        .contactos .contactos-titulo p{
+            text-align: center;
+            font-size: 12px;
+            width:75%;
+        }
+        .contactos .contactos-mensaje{
+            width: 100%;
+        }
+        .contactos .contactos-mensaje .contactos-mensaje-nombre input{
+            margin: 10px;
+        }
+        .contactos-estamos{
+            height: 700px;
+            flex-direction: column;
+        }
+        
+        .contactos-estamos div div img{
+            width: 8px;
+            height: 8px;
+        }
+        
+        .contactos-estamos iframe{
+        width: 250px;
+        height: 200px;
+        }
+}
+
+
+@media screen and (max-width:640px ) {
+    header{
+        position: static;
+    }
+    /*INDEX*/
+    .hero-carmelo div{ 
+        font-size: 15px;
+    }
+    .hero-carmelo iframe{
+        width: 90%;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width:600px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 12px;
+    }
+    .hero-actividades div{
+        height: 150px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-actividades div h2{
+        font-size: 30px;
+    }
+    .hero-actividades div p{
+        display: none;
+    }
+    .hero-equipo{
+        margin: 30px 0;
+    }
+    .hero-equipo h2{
+        margin: 10px;
+    }
+    .hero-equipo p{
+        font-size: 15px;
+    }
+    .hero-equipo  div div{
+        width: 190px;
+        height: 250px;
+    }
+    
+    .hero-equipo div div h3{
+        font-size: 13px;
+        font-weight:900;
+    }
+    
+    .hero-equipo div div p{
+        font-size: 12px;
+    }
+    /*NOSOTROS*/
+    .nosotros h1{
+    font-size: 25px;
+    }
+    /*ENTRENMIENTO*/
+    .entrenamiento-engeneral a {
+        height: 375px;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .entrenamiento-engeneral a div{
+        text-align: center;
+        width: 90%;
+    }
+    
+    .entrenamiento-engeneral a div h2{
+        font-size: 18px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 13px;
+    }
+    
+    .entrenamiento-engeneral a img{
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+    }
+    .entrenamiento-aireysala{
+        height: 555px;
+    }
+    .entrenamiento-aireysala div h2{
+        margin-bottom: 15px;
+        font-size: 18px;
+        }
+    .entrenamiento-aireysala div p{
+        width: 90%;
+        padding: auto;
+        font-size: 11px;
+    }
+    
+    .entrenamiento-aireysala img{
+        width: 92%;
+        padding: auto;
+        height: 175px;
+        object-fit: cover;
+    }
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 90%;
+        margin: 20px auto;
+    }    
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,20px);
+    }
+    .grid-items{
+        font-size:15px;
+        font-weight: 400;
+    }
+    .horarios-sala{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,22px);
+    }
+    .horarios-finde{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(7,35px);
+        gap: 3px;
+    }
+    .grid-1{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+    .grid-2{
+        grid-column: span 3;
+    }
+    .grid-3{
+        grid-column: span 3;
+    }
+    .grid-4{
+        grid-column: span 3;
+    }
+    .grid-5{
+        grid-column: span 3;
+    }
+    .grid-6{
+        grid-column: span 3;
+    }
+    .grid-7{
+        grid-column: span 3;
+    }
+    
+    .grid-conteiner2 div h3{
+        font-size: 15px;
+    }
+    
+    
+
+    /*FOOTER*/
+    footer{
+        height: 150px;
+    }
+    footer p{
+
+        font-size: 8px;
+    }
+    
+    footer img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width:660px ) {
+    /*CONTACTOS*/
+    .contactos{
+        height: 700px;
+        flex-direction: column;
+    }  
+    .contactos .contactos-titulo{
+        width: 100%;
+        padding: 30px;
+    }
+    .contactos .contactos-titulo h2{
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .contactos .contactos-titulo p{
+        display: none;
+    }
+    .contactos .contactos-mensaje{
+        width: 100%;
+    }
+    .contactos .contactos-mensaje .contactos-mensaje-enviar input{
+        margin: 10px;
+    }
+    .contactos-estamos{
+        height: 600px;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:510px ){
+    .entrenamiento-aireysala{
+        height: 380px;
+    }
+    .entrenamiento-aireysala div h2{
+        margin-bottom: 12px;
+        font-size: 15px;
+        }
+    .entrenamiento-aireysala div p{
+        width: 92%;
+        padding: auto;
+        font-size: 10px;
+    }
+    
+    .entrenamiento-aireysala img{
+        width: 100%;
+        height: 110px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:500px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 35px;
+        padding: 25px;
+    }
+    .hero p{ 
+        display: none;
+    }
+    .hero-equipo h2{
+        margin: 10px;
+    }
+    /*HORARIOS*/
+    .horarios-aire{
+        width: 96%;
+        margin: 20px auto;
+    }    
+    .horarios-aire .grid-conteiner{
+        grid-template-rows: repeat(10,15px);
+    }
+    .grid-items{
+        font-size:10px;
+        font-weight: 300;
+    }
+    .horarios-sala{
+        width: 96%;
+        margin: 30px auto;
+    }
+    .horarios-sala .grid-conteiner{
+        grid-template-rows: repeat(9,18px);
+    }
+    .horarios-finde {
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(7,20px);
+        gap: 3px;
+    }
+    .horarios-finde div h3{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:450px ){
+    /*NOSOTROS*/
+    .nosotros h1{
+        font-size: 20px;
+    }
+    
+    .nosotros p{
+        width: 90%;
+        margin: auto;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento{
+        font-size: 15px;
+        height: 75px;
+    }
+    /*ENTRENAMIENTO*/
+    .entrenamiento-engenerala div h2{
+        font-size: 15px;
+    }
+    
+    .entrenamiento-engeneral a div p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px ){
+    /*INDEX*/
+    .hero h1{
+        font-size: 30px;
+        padding: 7px;
+    }
+    .hero-actividades div h2{
+        font-size: 20px;
+    }
+    .hero-carmelo{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hero-carmelo div{ 
+        font-size: 15px;
+    }
+    
+    .hero-carmelo iframe{
+        width: 90%;
+        padding: auto;
+    }
+}
+
