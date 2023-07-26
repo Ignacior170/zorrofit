@@ -334,9 +334,13 @@ footer div a {
   font-size: 40px;
   margin: 50px 0; }
 
+.equipamiento-engeneral {
+  width: 95%;
+  margin: 0 auto; }
+
 .equipamiento-engeneral img {
   width: 100%;
-  height: 200px;
+  height: 180px;
   object-fit: cover; }
 
 .equipamiento-engeneral div div div {
@@ -1057,7 +1061,7 @@ footer div a {
     width: 96%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 20px);
+    grid-template-rows: repeat(7, 32px);
     gap: 3px; }
   .horarios-finde div h3 {
     font-size: 10px; } }
