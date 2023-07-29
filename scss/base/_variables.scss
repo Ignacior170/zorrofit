@@ -1,0 +1,85 @@
+
+
+
+/*LISTA*/ /*lo use en footer y entrenamiento*/
+
+
+$paleta-colores:
+rgb(68,68,68),
+white, 
+#d7d7d735,
+rgba(218,0,55,1),
+black,
+red;
+
+
+$font-size:
+10px,
+12px,
+15px,
+20px,
+30px;
+
+/*OPERACIONES*/ /*lo use en footer y entrenamiento*/
+
+$largo: 100px;
+
+/*MAPAS*/
+
+/*DENTRO DEL MAPA TENEMOS UN JUEGO DE PARES*//*KEY - VALUE*/
+
+/*EXTENDS*/
+
+/*%=pllaceholder*/
+/*
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} se llama @extend
+*/
+
+/*MIXINS*//*lo use en entrenamiento  fooster y en el index lo entiendo muy bien y esta muy beno*/
+
+
+@mixin flex($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+/*CONDICIONALES*/
+/*OPERADORES DE COMPARACION*/
+//* OPERADORES DE COMPARACION
+
+// == SON IGUALES
+
+// != ES DIFERENTE
+
+// > MAYOR QUE
+
+// < MENOR QUE
+
+// >= MAYOR O IGUAL
+
+// <= MENOR O IGUAL
+
+//if (condicional){
+//  se ejecuta el codigo q esta dentro de la llave}elese{este otro}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
