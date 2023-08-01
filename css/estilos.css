@@ -991,8 +991,8 @@ footer div a img:hover {
     animation-delay: 1s; }
   @keyframes titulopricipal3 {
     from {
-      margin-right: 100%;
-      width: 300%; }
+      margin-top: 100%;
+      width: 100%; }
     to {
       margin: 0;
       width: 100%; } }
@@ -1004,8 +1004,8 @@ footer div a img:hover {
     animation-delay: 1s; }
   @keyframes titulopricipal4 {
     from {
-      margin-left: 100%;
-      width: 300%; }
+      margin-top: 100%;
+      width: 100%; }
     to {
       margin: 0;
       width: 100%; } }
