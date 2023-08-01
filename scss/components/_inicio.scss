@@ -15,7 +15,21 @@
     text-shadow: 4px 4px 0px rgba(0,0,0,1);
     padding: 5px;
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 45px;
+    animation-name: titulopricipal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+}
+@keyframes titulopricipal{
+    from{
+        margin-right: 100%;
+        width: 300%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
 }
 
 
@@ -23,7 +37,21 @@
 .hero p{
     color: white;
     text-shadow: 1px 1px 0px rgba(0,0,0,1);
-    font-size: 15px;
+    font-size: 20px;
+    animation-name: titulopricipal1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+}
+@keyframes titulopricipal1{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
 }
 
 .hero-actividades div{
@@ -40,6 +68,7 @@
     @include flex (flex ,space-evenly, start);
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 
 
@@ -47,16 +76,42 @@
 .hero-actividades div h2{
     font-size: xx-large;
     text-shadow: 4px 4px 0px rgba(0,0,0,1);
-    transition: 3s ease-out;
+    animation-name: actividadess;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
 }
-.hero-actividades div h2:hover{
-    transform: translateX(500px) ;
+@keyframes actividadess{
+    from{
+        margin-left: 20%;
+        width: 200%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
 }
+
+
 
 .hero-actividades div p{
     font-size: large ;
     text-shadow: 1px 1px 0px rgba(0,0,0,1);
     width: 30%;
+    animation-name: actividadess;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+}
+@keyframes actividadess{
+    from{
+        margin-left: 20%;
+        width: 200%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
 }
 
 

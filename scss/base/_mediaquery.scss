@@ -318,9 +318,38 @@
     /*INDEX*/
     .hero h1{
         font-size: 30px;
+        animation-name: titulopricipal3;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
     }
+    @keyframes titulopricipal3{
+        from{
+            margin-right: 100%;
+            width: 300%;
+        }
+        to{
+            margin: 0;
+            width: 100%;
+        }
+    }
+    
     .hero p{
         font-size: 12px;
+        animation-name: titulopricipal4;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+    }
+    @keyframes titulopricipal4{
+        from{
+            margin-left: 100%;
+            width: 300%;
+        }
+        to{
+            margin: 0;
+            width: 100%;
+        }
     }
     .hero-actividades div{
         height: 150px;
@@ -550,6 +579,8 @@
         font-size: 35px;
         padding: 25px;
     }
+
+    
     .hero p{ 
         display: none;
     }

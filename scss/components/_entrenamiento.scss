@@ -12,7 +12,23 @@
     text-align: center;
     color: nth($paleta-colores ,2);
     font-size:nth($font-size, 5);
+    animation-name:entenamietooo;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
 }
+@keyframes entenamietooo{
+    from{
+        margin-left: 20%;
+        width: 200%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
 
 
 .entrenamiento-engeneral a {
@@ -29,7 +45,8 @@
 
 .entrenamiento-engeneral a:hover{
     background-color:nth($paleta-colores, 3 );
-}
+    }
+
 
 
 .entrenamiento-engeneral a div{
