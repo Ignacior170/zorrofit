@@ -23,3 +23,10 @@ footer img{
 footer div a{ 
     margin: 15px;
 }
+footer div a img{
+    transition: 2s;
+}
+footer div a img:hover{
+    transform: scale(1.3);
+}
+

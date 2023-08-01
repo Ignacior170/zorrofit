@@ -329,7 +329,11 @@
         flex-direction: column;
     }
     .hero-actividades div h2{
-        font-size: 30px;
+        font-size: 30px;    
+        transition: 2s ease-out;
+    }
+    .hero-actividades div h2:hover{
+        transform: translateY(20px) ;
     }
     .hero-actividades div p{
         display: none;
@@ -346,7 +350,14 @@
     .hero-equipo  div div{
         width: 190px;
         height: 250px;
+        transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: ease;
     }
+    .hero-equipo  div div:hover{
+        width: 220px;
+    }
+    
     
     .hero-equipo div div h3{
         font-size: 13px;
@@ -472,6 +483,12 @@
     footer img{
         width: 30px;
         height: 30px;
+    }
+    footer div a img{
+        transition: 2s;
+    }
+    footer div a img:hover{
+        transform: scale(1.3);
     }
 
 }
