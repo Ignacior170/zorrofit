@@ -988,7 +988,7 @@ footer div a img:hover {
     animation-name: titulopricipal3;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
-    animation-delay: 1s; }
+    animation-delay: 0s; }
   @keyframes titulopricipal3 {
     from {
       margin-top: 100%;
@@ -1001,7 +1001,7 @@ footer div a img:hover {
     animation-name: titulopricipal4;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
-    animation-delay: 1s; }
+    animation-delay: 0s; }
   @keyframes titulopricipal4 {
     from {
       margin-top: 100%;
