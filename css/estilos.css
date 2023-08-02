@@ -986,7 +986,7 @@ footer div a img:hover {
   .hero h1 {
     font-size: 30px;
     animation-name: titulopricipal3;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 0s; }
   @keyframes titulopricipal3 {
@@ -999,7 +999,7 @@ footer div a img:hover {
   .hero p {
     font-size: 12px;
     animation-name: titulopricipal4;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 0s; }
   @keyframes titulopricipal4 {
