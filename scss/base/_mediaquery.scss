@@ -318,6 +318,7 @@
     /*INDEX*/
     .hero h1{
         font-size: 30px;
+        /*
         animation-name: titulopricipal3;
         animation-duration: 1s;
         animation-timing-function: ease-in;
@@ -325,17 +326,19 @@
     }
     @keyframes titulopricipal3{
         from{
-            margin-top: 100%;
-            width: 100%;
+            margin-top: 20%;
+            width: 20%;
         }
         to{
             margin: 0;
-            width: 100%;
-        }
+            width: 20%;
+        }*/
+
     }
     
     .hero p{
         font-size: 12px;
+        /*
         animation-name: titulopricipal4;
         animation-duration: 1s;
         animation-timing-function: ease-in;
@@ -349,7 +352,7 @@
         to{
             margin: 0;
             width: 100%;
-        }
+        }*/
     }
     .hero-actividades div{
         height: 150px;

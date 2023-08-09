@@ -93,35 +93,43 @@ footer div a img:hover {
   padding: 5px;
   color: white;
   font-size: 45px;
-  animation-name: titulopricipal;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s; }
+  /*
+    animation-name: titulopricipal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;*/ }
 
-@keyframes titulopricipal {
-  from {
-    margin-right: 100%;
-    width: 100%; }
-  to {
-    margin: 0;
-    width: 100%; } }
-
+/*
+@keyframes titulopricipal{
+    from{
+        margin-right: 100%;
+        width: 100%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
+}
+*/
 .hero p {
   color: white;
   text-shadow: 1px 1px 0px black;
   font-size: 20px;
-  animation-name: titulopricipal1;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in;
-  animation-delay: 0s; }
-
-@keyframes titulopricipal1 {
-  from {
-    margin-left: 100%;
-    width: 100%; }
-  to {
-    margin: 0;
-    width: 100%; } }
+  /*
+    animation-name: titulopricipal1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+}
+@keyframes titulopricipal1{
+    from{
+        margin-left: 100%;
+        width: 100%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }*/ }
 
 .hero-actividades div {
   height: 250px;
@@ -143,36 +151,44 @@ footer div a img:hover {
 .hero-actividades div h2 {
   font-size: xx-large;
   text-shadow: 4px 4px 0px black;
-  animation-name: actividadess;
-  animation-duration: 1.2s;
-  animation-timing-function: ease-in;
-  animation-delay: 1s; }
-
-@keyframes actividadess {
-  from {
-    margin-left: 20%;
-    width: 200%; }
-  to {
-    margin: 0;
-    width: 100%; } }
+  /*
+    animation-name: actividadess;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+}
+@keyframes actividadess{
+    from{
+        margin-left: 20%;
+        width: 200%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }*/ }
 
 .hero-actividades div p {
   font-size: large;
   text-shadow: 1px 1px 0px black;
   width: 30%;
-  animation-name: actividadess;
-  animation-duration: 1s;
-  animation-timing-function: ease-in;
-  animation-delay: 1s; }
+  /*
+    animation-name: actividadess;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    */ }
 
-@keyframes actividadess {
-  from {
-    margin-left: 20%;
-    width: 100%; }
-  to {
-    margin: 0;
-    width: 100%; } }
-
+/*
+@keyframes actividadess{
+    from{
+        margin-left: 20%;
+        width: 100%;
+    }
+    to{
+        margin: 0;
+        width: 100%;
+    }
+}*/
 .hero-actividades .crossfit {
   background-image: url(../img/crossfit.jpg); }
 
@@ -985,30 +1001,38 @@ footer div a img:hover {
   /*INDEX*/
   .hero h1 {
     font-size: 30px;
-    animation-name: titulopricipal3;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s; }
-  @keyframes titulopricipal3 {
-    from {
-      margin-top: 100%;
-      width: 100%; }
-    to {
-      margin: 0;
-      width: 100%; } }
+    /*
+        animation-name: titulopricipal3;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+    }
+    @keyframes titulopricipal3{
+        from{
+            margin-top: 20%;
+            width: 20%;
+        }
+        to{
+            margin: 0;
+            width: 20%;
+        }*/ }
   .hero p {
     font-size: 12px;
-    animation-name: titulopricipal4;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0s; }
-  @keyframes titulopricipal4 {
-    from {
-      margin-top: 100%;
-      width: 100%; }
-    to {
-      margin: 0;
-      width: 100%; } }
+    /*
+        animation-name: titulopricipal4;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+    }
+    @keyframes titulopricipal4{
+        from{
+            margin-top: 100%;
+            width: 100%;
+        }
+        to{
+            margin: 0;
+            width: 100%;
+        }*/ }
   .hero-actividades div {
     height: 150px;
     justify-content: space-between;

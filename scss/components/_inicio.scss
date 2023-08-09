@@ -16,11 +16,13 @@
     padding: 5px;
     color: rgb(255, 255, 255);
     font-size: 45px;
+    /*
     animation-name: titulopricipal;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
-    animation-delay: 0s;
+    animation-delay: 0s;*/
 }
+/*
 @keyframes titulopricipal{
     from{
         margin-right: 100%;
@@ -31,6 +33,7 @@
         width: 100%;
     }
 }
+*/
 
 
 
@@ -38,6 +41,7 @@
     color: white;
     text-shadow: 1px 1px 0px rgba(0,0,0,1);
     font-size: 20px;
+    /*
     animation-name: titulopricipal1;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
@@ -51,7 +55,7 @@
     to{
         margin: 0;
         width: 100%;
-    }
+    }*/
 }
 
 .hero-actividades div{
@@ -76,6 +80,7 @@
 .hero-actividades div h2{
     font-size: xx-large;
     text-shadow: 4px 4px 0px rgba(0,0,0,1);
+    /*
     animation-name: actividadess;
     animation-duration: 1.2s;
     animation-timing-function: ease-in;
@@ -89,7 +94,8 @@
     to{
         margin: 0;
         width: 100%;
-    }
+    }*/
+
 }
 
 
@@ -98,11 +104,14 @@
     font-size: large ;
     text-shadow: 1px 1px 0px rgba(0,0,0,1);
     width: 30%;
+    /*
     animation-name: actividadess;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 1s;
+    */
 }
+/*
 @keyframes actividadess{
     from{
         margin-left: 20%;
@@ -112,7 +121,7 @@
         margin: 0;
         width: 100%;
     }
-}
+}*/
 
 
 
